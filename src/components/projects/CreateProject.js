@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { createProject } from '../store/actions/projectActions'
-import { dispatch } from 'rxjs/internal/observable/range'
 
 class CreateProject extends Component {
 	state = {
